@@ -20,8 +20,7 @@ public class Data {
 	public void loadBigram() throws IOException{
 		
 		ClassLoader classloader = Thread.currentThread().getContextClassLoader();
-		InputStream in = classloader.getResourceAsStream("API_KB_bigram(method).txt");
-		//InputStream in = classloader.getResourceAsStream("API_KB_bigram(file).txt");
+		InputStream in = classloader.getResourceAsStream("API_File_bigram.txt");
 		BufferedReader reader = new BufferedReader(new InputStreamReader(in));
 		
 		String line = "";
@@ -41,8 +40,7 @@ public class Data {
 	public void loadreversebigram() throws IOException{
 		
 		ClassLoader classloader = Thread.currentThread().getContextClassLoader();
-		InputStream in = classloader.getResourceAsStream("API_KB_reverse_bigram(method).txt");
-		//InputStream in = classloader.getResourceAsStream("API_KB_reverse_bigram(file).txt");
+		InputStream in = classloader.getResourceAsStream("API_File_reversebigram.txt");
 		BufferedReader reader = new BufferedReader(new InputStreamReader(in));
 		
 		String line = "";
