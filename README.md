@@ -1,7 +1,7 @@
 # Eclipse-API-Recommendation-Plugin
 
-Setting Up
--Download the file into eclipse
+#Setting Up
+#Download the file into eclipse
 
 Add the API_File_bigram.txt and API_File_reversebigram.txt into the project using the below dropbox link
 -https://www.dropbox.com/sh/gd6ccjobnw2ys5j/AAAxVmuxnQgwaOU3MZDbR-J-a?dl=0
